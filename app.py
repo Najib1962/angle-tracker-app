@@ -6,7 +6,13 @@ import os
 import math
 from datetime import datetime
 import time
-time.sleep(10)  # Wait 10 seconds for Render to initialize
+
+# Show loading message
+st.set_page_config(page_title="Angle Tracker - Click & Move", layout="wide")
+
+# Add a loading spinner for better UX
+with st.spinner("Loading application..."):
+    time.sleep(0.5)  # Short delay for better UX
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(page_title="Angle Tracker - Click & Move", layout="wide")
