@@ -5,6 +5,8 @@ import tempfile
 import os
 import math
 from datetime import datetime
+import time
+time.sleep(10)  # Wait 10 seconds for Render to initialize
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(page_title="Angle Tracker - Click & Move", layout="wide")
