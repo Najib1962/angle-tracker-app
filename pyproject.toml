@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "angle-tracker-app"
+version = "1.0.0"
+dependencies = [
+    "streamlit",
+    "opencv-python-headless",
+    "numpy",
+    "Pillow",
+]
+requires-python = ">=3.10,<3.13"
